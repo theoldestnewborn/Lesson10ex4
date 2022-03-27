@@ -22,13 +22,12 @@ public class Main {
                     StringBuilder xBuilder = new StringBuilder(xArray[number - 1]);
                     String x1 = String.valueOf(xBuilder.reverse());
                     if (xArray[number - 1].equals(x1)) {
-                        System.out.println("У нас палиндромище!");
+                        System.out.println("У нас палиндромище!"); return;
                     } else {
-                        System.out.println("попробуй другое слово");
+                        System.out.println("попробуй другое слово"); break;
                     }
-                    break;
                 default:
-                    System.out.println("Сделайте верный выбор");
+                    System.out.println("Сделайте верный выбор"); break;
             }
         }
     }
